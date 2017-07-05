@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test_Sydorov_Dmitriy</title>
+    <link type="text/css" href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="wraper">
+    <header>
+        <img class="photo" src="image/photo.png" height="122" width="120"/>
+        <h1 class="name">Вероника Ростова</h1>
+        <h2 class="position">Менеджер по продажам</h2>
+        <p class="authorComment">Подберу для вас самые лучшие предложения.
+            Мои услуги абсолютно бесплатны</p>
+    </header>
+    <main>
+        <div class="services">
+            <h3 class="services__caption">Услуг</h3>
+            <hr />
+            <section class="services__block">
+                <article class="reservation">
+                    <p class="reservation__background"></p>
+                    <p class="services__block_text_reservation">Ручное бронирование</p>
+                    <p class="services__block__reservation__number">11</p>
+
+                </article>
+                <article class="tours">
+                    <p class="tours__background"></p>
+                    <p class="services__block_text">Пакетные туры</p>
+                    <p class="services__block__number">3</p>
+                </article>
+                <article class="hotels">
+                    <p class="hotels__background"></p>
+                    <p class="services__block_text">Отели</p>
+                    <p class="services__block__number">1</p>
+                </article>
+            </section>
+            <hr />
+            <div class="services__total">
+                <p class="text__total">Всего</p>
+                <p class="quantity__total">15</p>
+            </div>
+        </div>
+        <div class="reviews">
+            <div class="reviews__header">
+                <h3 class="reviews__last">Последние отзывы</h3>
+                <a href="#" class="reviews__all">Все отзывы</a>
+
+                    <label class="reviews__comments__label">
+                        <input type="button" class="reviews__comments">
+                        <i class="glyphicon glyphicon-comment" aria-hidden="true"></i>14</label>
+
+                    <label class="reviews__likes__label">
+                        <input type="button" class="reviews__likes" name="likes">
+                        <i class="fa fa-heart" aria-hidden="true"></i>131</label>
+
+            </div>
+            <section class="commetaries">
+                <article class="commetarie">
+                   <h4 class="commetarie__name">Самуил<span class="commetarie__data">13 октября 2011</span> </h4>
+                   <p class="commetarie__text">
+                       Привет, Верунь! ниче себе ты крутая. фотка класс!!!!
+                   </p>
+                </article>
+                <article class="commetarie">
+                    <h4 class="commetarie__name">Лилия Семёновна<span class="commetarie__data">14 октября 2011</span> </h4>
+                    <p class="commetarie__text">
+                        Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент, это и есть всемирно известный центр огранки алмазов и торговли бриллиантами?
+                    </p>
+                </article>
+                 <article class="commetarie">
+                    <h4 class="commetarie__name">Лилия Семёновна<span class="commetarie__data">14 октября 2011</span> </h4>
+                    <p class="commetarie__text">
+                        Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент?
+                    </p>
+                 </article>
+            </section>
+        </div>
+    </main>
+</div>
+<div class="textarea__block">
+    <textarea class="textarea__block__text"> </textarea>
+    <button class="textarea__block__button" id="go">Написать консультанту</button>
+</div>
+<script src="lib/jquery/dist/jquery.min.js"></script>
+<script src="js/creatComment.js"></script>
+</body>
+</html>

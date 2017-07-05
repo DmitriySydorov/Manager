@@ -1,0 +1,252 @@
+html{
+  max-width: 720px;
+  min-width: 360px;
+  margin: 0 auto;
+}
+body{
+  width: 100%;
+  font-family: Arial,sans-serif;
+
+
+}
+
+.wraper{
+  padding: 0 20px 0 20px;
+}
+
+header{
+  .photo{
+    float: left;
+  }
+  .name{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 0 0 130px;
+    margin: 10px 0 5px 0;
+  }
+  .position{
+    font-weight: 400;
+    font-size: 12px;
+    color: #808080;
+    padding-left: 130px;
+    margin: 0;
+  }
+  .authorComment{
+    width: 370px/450px*100%;
+    background:#fffbc8;
+    font-size: 14px;
+    font-weight: 400;
+    margin:7px 0 0 80px;
+    padding: 7px 0 7px 45px;
+    border: 1px solid #cecabf;
+    border-radius: 5px;
+    line-height: 20px;
+  }
+}
+.services{
+  width: 320px/490px*100%;
+  float: right;
+}
+    .services__caption{
+      font-weight: 400;
+      float: right;
+      font-size: 13px;
+      margin:13px 31px 5px 0;
+    }
+    hr{
+      margin: 0;
+      width: 100%;
+      clear: both;
+      color: #cccccc;
+    }
+    .services__block{
+      clear: both;
+    }
+          .reservation__background{
+            width: 220px/300px*100%;
+            height: 25px;
+            background: #b1e19b;
+            float: left;
+            display: block;
+            border-radius: 0 5px 5px 0;
+            border-left: 2px solid #83b26d;
+            margin:15px 0 0 0;
+          }
+          .tours__background{
+            width: 55px/300px*100%;
+            height: 25px;
+            background: #ace2f8;
+            float: left;
+            display: block;
+            border-radius: 0 5px 5px 0;
+            border-left:2px solid #7eb4ca;
+            margin:1px 0 0 0;
+          }
+          .hotels__background{
+            width: 35px/300px*100%;
+            height: 25px;
+            background: #ace2f8;
+            float: left;
+            display: block;
+            border-radius: 0 5px 5px 0;
+            border-left:2px solid #7eb4ca;
+            margin:1px 0 15px 0;
+          }
+        .services__block_text_reservation{
+          position: absolute;
+          float: left;
+          font-size: 13px;
+          padding: 20px 0 0 8px;
+          margin: 0;
+        }
+        .services__block_text{
+          position: absolute;
+          float: left;
+          font-size: 13px;
+          padding: 5px 0 0 8px;
+          margin: 0;
+        }
+        .services__block__reservation__number{
+          float: right;
+          font-weight: bold;
+          font-size: 13px;
+          margin: 0;
+          padding: 20px 40px 0 0;
+        }
+        .services__block__number{
+          float: right;
+          font-weight: bold;
+          font-size: 13px;
+          margin: 0;
+          padding: 5px 40px 0 0;
+        }
+        .tours , .hotels{
+           clear: both;
+
+        }
+
+  .text__total{
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    margin:11px 0 0 0;
+  }
+  .quantity__total{
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    margin:11px 40px 0 0;
+  }
+
+
+.reviews {
+  clear: both;
+  padding: 24px 0 10px 0;
+}
+  .reviews__last {
+    float: left;
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .reviews__all {
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  .reviews__likes, .reviews__comments {
+    display: none;
+  }
+  .reviews__comments__label, .reviews__likes__label {
+    float: right;
+    font-size: 12px;
+    padding-top: 2px;
+    cursor: pointer;
+    i {
+      color: #73b4d5;
+      padding-right: 2px;
+    }
+  }
+  .reviews__comments__label:active, .reviews__likes__label:active {
+    i {
+      color: #6873d5;
+    }
+    color: #6873d5;
+  }
+  .reviews__comments__label {
+    padding-right: 10px;
+  }
+  .reviews__likes__label {
+    padding-right: 25px;
+  }
+
+  .commetarie__name{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 11px 0 11px 0;
+  }
+  .commetarie__data{
+    font-size: 11px;
+    font-weight: 400;
+    color: #808080;
+    padding-left: 10px;
+  }
+  .commetarie__text {
+    font-size: 14px;
+    text-align: justify;
+    position: relative;
+    line-height: 19px;
+    width: 100%;
+    padding: 17px;
+    background-color: #f2fbff;
+    border: 1px solid #cfcfcf ;
+  }
+  .commetarie__text:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 25px;
+    top: -10px;
+    border: 5px solid;
+    border-color: #cfcfcf transparent transparent #cfcfcf ;
+    transform: rotate(270deg);
+  }
+  .commetarie__text:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 26px;
+    top: -8px;
+    border: 4px solid;
+    border-color: #f2fbff transparent transparent #f2fbff ;
+    transform: rotate(270deg);
+  }
+
+.textarea__block{
+  background: #f2f2f2;
+  text-align: center;
+}
+    .textarea__block__text{
+      width: 450px/490px*100%;
+      height: 60px;
+      margin-top: 20px;
+      border:1px solid #a9a9a9;
+    }
+  .textarea__block__button{
+    font-size: 16px;
+    font-family: "PT_Sans-Bold",sans-serif;
+    font-weight: bold;
+    width: 280px/490px*100%;
+    height: 40px;
+    background-color: #fdd639;
+    border: none;
+    border-radius: 25px;
+    margin: 20px 0 30px 0;
+    padding: 5px 11px 10px 6px;
+  }
+  .textarea__block__button:active{
+    box-shadow: inset 0 0 10px #808080;
+    color: #363636;
+    background-color: #fdc325;
+  }
